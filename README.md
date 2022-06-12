@@ -17,7 +17,7 @@
 
 # General info
 
-In this project, we analyzed the NBA history with the parameters of players age, the winning percentage of teams, PER (players efficieny rating), minutes played between 1986-2017 and used Python jupyter notebook for creating codes.
+In this project, we analyzed the NBA history with the parameters of players age, the winning percentage of teams, PER (players efficiency rating), minutes played between 1986-2017 and used Python jupyter notebook for creating codes.
 
 # Questions
 
@@ -55,7 +55,7 @@ In this project, we analyzed the NBA history with the parameters of players age,
 
 # Data Cleaning
 
-To get our data in a format that was needed, we had to merge teamData (contains Year, Team, Record, and Winning Percentage information) with playerData (contains  Index, Year, Player, Pos, Age, Tm, G, GS, MP, PER, TS%, 3PAr, FTr, ORB%, DRB%, TRB%, AST%, STL%, BLK%, TOV%, USG%, blanl, OWS, DWS, WS, WS/48, blank2, OBPM, DBPM, BPM, VORP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT, FTA, FT%, ORB, DRB, TRB, AST, STL, BLK, TOV, PF and PTS) in Resources folder. In order to get the winning percentage by Year and Team (teamData) to be combined with the PlayerData, we did some data cleansing in Python as well as created the complete_nba_data database, this file combines that information. This is what we used to do all of our analysis except for Question 4. In addition, we had to identify if we had any NaN in our data. The NBA Team Data had many players that had this occur. This was due to the data in those fields were not calculated at the time these players played, or the data needed was not available for that time period. We were able to identify that for a 30-year period (1986 - 2017) the data was clean (had no fields with NaN).
+To get our data in a format that was needed, we had to merge teamData (contains Year, Team, Record, and Winning Percentage information) with playerData (contains  Index, Year, Player, Pos, Age, Tm, G, GS, MP, PER, TS%, 3PAr, FTr, ORB%, DRB%, TRB%, AST%, STL%, BLK%, TOV%, USG%, blank, OWS, DWS, WS, WS/48, blank2, OBPM, DBPM, BPM, VORP, FG, FGA, FG%, 3P, 3PA, 3P%, 2P, 2PA, 2P%, eFG%, FT, FTA, FT%, ORB, DRB, TRB, AST, STL, BLK, TOV, PF and PTS) in Resources folder. In order to get the winning percentage by Year and Team (teamData) to be combined with the PlayerData, we did some data cleansing in Python as well as created the complete_nba_data database, this file combines that information. This is what we used to do all of our analysis except for Question 4. In addition, we had to identify if we had any NaN in our data. The NBA Team Data had many players that had this occur. This was due to the data in those fields were not calculated at the time these players played, or the data needed was not available for that time period. We were able to identify that for a 30-year period (1986 - 2017) the data was clean (had no fields with NaN).
 
 * **complete_nba_data**: Merged team data with city data and added players data in csv files to work on first question and related visualizations and arranged the data between 1986 to 2017 and cleaned up dataset to use as main data.
 
